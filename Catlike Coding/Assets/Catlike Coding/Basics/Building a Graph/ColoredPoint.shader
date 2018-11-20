@@ -25,7 +25,7 @@ Shader "Custom/ColoredPoint" {
 		UNITY_INSTANCING_BUFFER_END(Props)
 
 		void surf (Input IN, inout SurfaceOutputStandard o) {
-			o.Albedo.rg = IN.worldPos.xy * 0.5 + 0.5;
+			o.Albedo.rgb = IN.worldPos.xyz * 0.5 + 0.5;
 			o.Metallic = _Metallic;
 			o.Smoothness = _Glossiness;
 			o.Alpha = 1;
