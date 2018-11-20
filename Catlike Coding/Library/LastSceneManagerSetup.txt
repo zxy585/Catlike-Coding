@@ -1,1 +1,5 @@
-sceneSetups: []
+sceneSetups:
+- path: Assets/Catlike Coding/Object Management/2.1_Persisting Objects/Persisting
+    Objects.unity
+  isLoaded: 1
+  isActive: 1
