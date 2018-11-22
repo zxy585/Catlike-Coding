@@ -63,14 +63,14 @@
   <ItemGroup>
     <Compile Include="Assets\Catlike Coding\2.Object Management\2.1_Persisting Objects\Scripts\Editor\FloatRangeDrawer.cs" />
     <Compile Include="Assets\Catlike Coding\2.Object Management\2.1_Persisting Objects\Scripts\Editor\FloatRangeSliderDrawer.cs" />
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>D:/Unity/Catlike Coding/Catlike Coding/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/Unity/Catlike Coding/Catlike Coding/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Unity/Catlike Coding/Catlike Coding/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/Unity/Catlike Coding/Catlike Coding/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>D:/Unity/Catlike Coding/Catlike Coding/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
