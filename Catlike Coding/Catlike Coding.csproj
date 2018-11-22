@@ -295,35 +295,37 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Catlike Coding\Basics\Building a Graph\Graph.cs" />
-    <Compile Include="Assets\Catlike Coding\Basics\Constructing a Fractal\Fractal.cs" />
-    <Compile Include="Assets\Catlike Coding\Basics\Creating a Clock\Clock.cs" />
-    <Compile Include="Assets\Catlike Coding\Basics\Frames Per Second\Atomic Nucleus\Nucleon.cs" />
-    <Compile Include="Assets\Catlike Coding\Basics\Frames Per Second\Atomic Nucleus\NucleonSpawner.cs" />
-    <Compile Include="Assets\Catlike Coding\Basics\Frames Per Second\FPSCounter.cs" />
-    <Compile Include="Assets\Catlike Coding\Basics\Frames Per Second\FPSDisplay.cs" />
-    <Compile Include="Assets\Catlike Coding\Basics\Mathematical Surfaces\GraphFunction.cs" />
-    <Compile Include="Assets\Catlike Coding\Basics\Mathematical Surfaces\GraphFunctionName.cs" />
-    <Compile Include="Assets\Catlike Coding\Object Management\2.1_Persisting Objects\Game.cs" />
-    <Compile Include="Assets\Catlike Coding\Object Management\2.1_Persisting Objects\Scripts\ColorRangeHSV.cs" />
-    <Compile Include="Assets\Catlike Coding\Object Management\2.1_Persisting Objects\Scripts\CompositeSpawnZone.cs" />
-    <Compile Include="Assets\Catlike Coding\Object Management\2.1_Persisting Objects\Scripts\CubeSpawnZone.cs" />
-    <Compile Include="Assets\Catlike Coding\Object Management\2.1_Persisting Objects\Scripts\FloatRange.cs" />
-    <Compile Include="Assets\Catlike Coding\Object Management\2.1_Persisting Objects\Scripts\FloatRangeSliderAttribute.cs" />
-    <Compile Include="Assets\Catlike Coding\Object Management\2.1_Persisting Objects\Scripts\GameDataReader.cs" />
-    <Compile Include="Assets\Catlike Coding\Object Management\2.1_Persisting Objects\Scripts\GameDataWriter.cs" />
-    <Compile Include="Assets\Catlike Coding\Object Management\2.1_Persisting Objects\Scripts\GameLevel.cs" />
-    <Compile Include="Assets\Catlike Coding\Object Management\2.1_Persisting Objects\Scripts\PersistableObject.cs" />
-    <Compile Include="Assets\Catlike Coding\Object Management\2.1_Persisting Objects\Scripts\PersistentStorage.cs" />
-    <Compile Include="Assets\Catlike Coding\Object Management\2.1_Persisting Objects\Scripts\RotatingObject.cs" />
-    <Compile Include="Assets\Catlike Coding\Object Management\2.1_Persisting Objects\Scripts\Shape.cs" />
-    <Compile Include="Assets\Catlike Coding\Object Management\2.1_Persisting Objects\Scripts\ShapeFactory.cs" />
-    <Compile Include="Assets\Catlike Coding\Object Management\2.1_Persisting Objects\Scripts\SpawnZone.cs" />
-    <Compile Include="Assets\Catlike Coding\Object Management\2.1_Persisting Objects\Scripts\SphereSpawnZone.cs" />
+    <Compile Include="Assets\Catlike Coding\1.Basics\Building a Graph\Graph.cs" />
+    <Compile Include="Assets\Catlike Coding\1.Basics\Constructing a Fractal\Fractal.cs" />
+    <Compile Include="Assets\Catlike Coding\1.Basics\Creating a Clock\Clock.cs" />
+    <Compile Include="Assets\Catlike Coding\1.Basics\Frames Per Second\Atomic Nucleus\Nucleon.cs" />
+    <Compile Include="Assets\Catlike Coding\1.Basics\Frames Per Second\Atomic Nucleus\NucleonSpawner.cs" />
+    <Compile Include="Assets\Catlike Coding\1.Basics\Frames Per Second\FPSCounter.cs" />
+    <Compile Include="Assets\Catlike Coding\1.Basics\Frames Per Second\FPSDisplay.cs" />
+    <Compile Include="Assets\Catlike Coding\1.Basics\Mathematical Surfaces\GraphFunction.cs" />
+    <Compile Include="Assets\Catlike Coding\1.Basics\Mathematical Surfaces\GraphFunctionName.cs" />
+    <Compile Include="Assets\Catlike Coding\2.Object Management\2.1_Persisting Objects\Game.cs" />
+    <Compile Include="Assets\Catlike Coding\2.Object Management\2.1_Persisting Objects\Scripts\ColorRangeHSV.cs" />
+    <Compile Include="Assets\Catlike Coding\2.Object Management\2.1_Persisting Objects\Scripts\CompositeSpawnZone.cs" />
+    <Compile Include="Assets\Catlike Coding\2.Object Management\2.1_Persisting Objects\Scripts\CubeSpawnZone.cs" />
+    <Compile Include="Assets\Catlike Coding\2.Object Management\2.1_Persisting Objects\Scripts\FloatRange.cs" />
+    <Compile Include="Assets\Catlike Coding\2.Object Management\2.1_Persisting Objects\Scripts\FloatRangeSliderAttribute.cs" />
+    <Compile Include="Assets\Catlike Coding\2.Object Management\2.1_Persisting Objects\Scripts\GameDataReader.cs" />
+    <Compile Include="Assets\Catlike Coding\2.Object Management\2.1_Persisting Objects\Scripts\GameDataWriter.cs" />
+    <Compile Include="Assets\Catlike Coding\2.Object Management\2.1_Persisting Objects\Scripts\GameLevel.cs" />
+    <Compile Include="Assets\Catlike Coding\2.Object Management\2.1_Persisting Objects\Scripts\PersistableObject.cs" />
+    <Compile Include="Assets\Catlike Coding\2.Object Management\2.1_Persisting Objects\Scripts\PersistentStorage.cs" />
+    <Compile Include="Assets\Catlike Coding\2.Object Management\2.1_Persisting Objects\Scripts\RotatingObject.cs" />
+    <Compile Include="Assets\Catlike Coding\2.Object Management\2.1_Persisting Objects\Scripts\Shape.cs" />
+    <Compile Include="Assets\Catlike Coding\2.Object Management\2.1_Persisting Objects\Scripts\ShapeFactory.cs" />
+    <Compile Include="Assets\Catlike Coding\2.Object Management\2.1_Persisting Objects\Scripts\SpawnZone.cs" />
+    <Compile Include="Assets\Catlike Coding\2.Object Management\2.1_Persisting Objects\Scripts\SphereSpawnZone.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Catlike Coding\Basics\Building a Graph\ColoredPoint.shader" />
-    <None Include="Assets\Catlike Coding\Object Management\2.2_Object Variety\Materials\InstancedColors.shader" />
+    <None Include="Assets\Catlike Coding\1.Basics\Building a Graph\ColoredPoint.shader" />
+    <None Include="Assets\Catlike Coding\2.Object Management\2.2_Object Variety\Materials\InstancedColors.shader" />
+    <None Include="Assets\Catlike Coding\3.Flow\3.1_Texture Distortion\DistortionFlow.shader" />
+    <None Include="Assets\Catlike Coding\3.Flow\3.1_Texture Distortion\Flow.cginc" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

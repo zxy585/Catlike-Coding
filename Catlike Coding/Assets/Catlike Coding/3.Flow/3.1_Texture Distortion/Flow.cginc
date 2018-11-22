@@ -1,4 +1,4 @@
-﻿#if !defined(FLOW_INCLUDED)
+﻿#ifndef FLOW_INCLUDED
 #define FLOW_INCLUDED
 
 float3 FlowUVW (
