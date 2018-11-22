@@ -320,10 +320,20 @@
     <Compile Include="Assets\Catlike Coding\2.Object Management\2.1_Persisting Objects\Scripts\ShapeFactory.cs" />
     <Compile Include="Assets\Catlike Coding\2.Object Management\2.1_Persisting Objects\Scripts\SpawnZone.cs" />
     <Compile Include="Assets\Catlike Coding\2.Object Management\2.1_Persisting Objects\Scripts\SphereSpawnZone.cs" />
+    <Compile Include="Assets\Catlike Coding\4.Mesh Basics\CubeSphere.cs" />
+    <Compile Include="Assets\Catlike Coding\4.Mesh Basics\MeshDeformer.cs" />
+    <Compile Include="Assets\Catlike Coding\4.Mesh Basics\MeshDeformerInput.cs" />
+    <Compile Include="Assets\Catlike Coding\4.Mesh Basics\RoundedCube.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Catlike Coding\1.Basics\Building a Graph\ColoredPoint.shader" />
     <None Include="Assets\Catlike Coding\2.Object Management\2.2_Object Variety\Materials\InstancedColors.shader" />
+    <None Include="Assets\Catlike Coding\3.Flow\DirectionalFlow.shader" />
+    <None Include="Assets\Catlike Coding\3.Flow\DistortionFlow.shader" />
+    <None Include="Assets\Catlike Coding\3.Flow\Flow.cginc" />
+    <None Include="Assets\Catlike Coding\3.Flow\LookingThroughWater.cginc" />
+    <None Include="Assets\Catlike Coding\3.Flow\Waves.shader" />
+    <None Include="Assets\Catlike Coding\4.Mesh Basics\Rounded Cube Grid.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

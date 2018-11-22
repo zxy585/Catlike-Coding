@@ -1,1 +1,4 @@
-sceneSetups: []
+sceneSetups:
+- path: Assets/Catlike Coding/4.Mesh Basics/Mesh Basics.unity
+  isLoaded: 1
+  isActive: 1
