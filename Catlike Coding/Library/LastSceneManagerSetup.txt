@@ -1,4 +1,1 @@
-sceneSetups:
-- path: Assets/Catlike Coding/3.Flow/3.1_Texture Distortion/Texture Distortion.unity
-  isLoaded: 1
-  isActive: 1
+sceneSetups: []
