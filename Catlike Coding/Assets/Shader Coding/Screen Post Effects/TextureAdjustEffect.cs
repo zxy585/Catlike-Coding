@@ -4,6 +4,7 @@ using UnityEngine;
 //继承自PostEffectBase
 public class TextureAdjustEffect : PostEffectBase
 {
+    public bool isPlay;
     //需要使用的图像
     public List<Texture2D> blendTexture = new List<Texture2D>();
     public int framenum = 1;

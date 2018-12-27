@@ -34,9 +34,5 @@ public class PostEffectBase : MonoBehaviour
             return material;
         return null;
     }
-    //屏幕效果是否开启
-    public bool isPlay = false;
-    //画面亮度参数设置
-    [Range(0.0f, 1.0f)]
-    public float brightnessLimit;
+
 }

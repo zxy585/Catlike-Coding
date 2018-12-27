@@ -1,4 +1,4 @@
-﻿Shader "PostEffect/TextureBlendEffect"
+﻿Shader "MyShader/PostEffect/TextureBlendEffect"
 {
 	Properties
 	{
