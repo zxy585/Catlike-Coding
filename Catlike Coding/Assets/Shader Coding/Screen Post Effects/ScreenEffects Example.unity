@@ -601,13 +601,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1409278248}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 11d6081195bf477479f57b175da076b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shader: {fileID: 0}
   targetObject: {fileID: 407093277}
   replaceMaterial: {fileID: 0}
+  brightness: 1
+  contrast: 1
+  saturation: 1
 --- !u!64 &1409278250
 MeshCollider:
   m_ObjectHideFlags: 0
