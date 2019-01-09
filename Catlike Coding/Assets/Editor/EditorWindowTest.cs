@@ -11,10 +11,10 @@ public class EditorWindowTest : EditorWindow
     public static void ConfigDialog()
     {
         //GetWindow创建
-        EditorWindow.GetWindow(typeof(EditorWindowTest));
+        GetWindow(typeof(EditorWindowTest));
     }
 
-    public UnityEngine.Object go = null;
+    public Object go = null;
 
     //对话框中的各种内容通过OnGUI函数来设置
     void OnGUI()
@@ -22,7 +22,7 @@ public class EditorWindowTest : EditorWindow
         //Label
         GUILayout.Label("Label Test", EditorStyles.boldLabel);
         //通过EditorGUILayout.ObjectField可以接受Object类型的参数进行相关操作
-        go = EditorGUILayout.ObjectField(go, typeof(UnityEngine.Object), true);
+        go = EditorGUILayout.ObjectField(go, typeof(Object), true);
         //Button
         if (GUILayout.Button("Button Test"))
         {
