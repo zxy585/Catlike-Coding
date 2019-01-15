@@ -324,6 +324,8 @@
     <Compile Include="Assets\Catlike Coding\4.Mesh Basics\MeshDeformer.cs" />
     <Compile Include="Assets\Catlike Coding\4.Mesh Basics\MeshDeformerInput.cs" />
     <Compile Include="Assets\Catlike Coding\4.Mesh Basics\RoundedCube.cs" />
+    <Compile Include="Assets\Catlike Coding\5.Scriptable Render Pipeline\5.1_Custom Pipeline\My Pipeline\MyPipeline.cs" />
+    <Compile Include="Assets\Catlike Coding\5.Scriptable Render Pipeline\5.1_Custom Pipeline\My Pipeline\MyPipelineAsset.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Catlike Coding\1.Basics\Building a Graph\ColoredPoint.shader" />
