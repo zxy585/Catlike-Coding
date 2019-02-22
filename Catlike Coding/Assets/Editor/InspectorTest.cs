@@ -99,4 +99,11 @@ public class InspectorTest : MonoBehaviour
     [SerializeField]
     private bool tSerializeField = true;
     #endregion
+
+    //在程序最开始执行
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
+    public static void DoSomething()
+    {
+        Debug.Log("It's the start of the game");
+    }
 }
