@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Z_Unity/Collection/Collection_01.unity
+- path: Assets/Catlike Coding/6.Rendering/6.1_Matrices/Matrices.unity
   isLoaded: 1
   isActive: 1
